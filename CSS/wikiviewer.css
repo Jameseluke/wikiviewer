@@ -1,0 +1,89 @@
+body {
+  background-color: #004C70;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding-top: 2em;
+}
+
+
+.result {
+  background-color: white;
+}
+
+.result * {
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+.summary {
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.grow:hover
+{
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        cursor: pointer;
+}
+
+.stylish-input-group .input-group-addon{
+    background: white !important;
+     line-height: 1!important;
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group i{
+    border:0;
+    background:transparent;
+}
+
+.input-group {
+   margin: 5rem;
+}
+
+.absolute-center {
+   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+#title{
+    position: absolute;  
+    left: 50%;                        /* horizontal alignment */
+    top: 50%;                         /* vertical alignment */
+    transform: translate(-50%, -180%); /* horizontal, vertical alignment fine tuning;
+                                        explanation: http://stackoverflow.com/q/36817249 */
+    color: white;
+ }
+
+#search {
+  margin-bottom: -2em;
+}
+
+button:focus {
+  outline: none;
+}
+
+i:hover{
+  cursor: pointer;
+}
+
+i {
+  top:0px;
+  margin-left:0.5em;  
+}
+
+.input-group .form-control {
+    margin: 0px !important;
+}
